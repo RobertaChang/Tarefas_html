@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Seja Bem Vindo!</h1>
+
+    <h2>Faça seu cadastro abaixo.</h2>
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label form="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite seu Nome" required><br /><br />
+
+            <label form="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" placeholder="Digite seu Sobrenome" required><br /><br />
+
+            <label form="sexo">Sexo</label>
+            <select id="sexo">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="O">Outro</option>
+            </select><br /><br />
+            </div>
+
+            <label form="CPF">CPF</label>
+            <input type="text" id="CPF" placeholder="xxx.xxx.xxx-xx" required><br /><br />
+
+            <label form="idade">Idade</label>
+            <input type="number" id="idade" placeholder="xx" min="18" max="90" required><br /><br />
+
+            <label form="data de nascimento">Data de Nascimento</label>
+            <input id="date" type="date" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Usuário</legend>
+
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="mail@gmail.com" id="email"><br /><br />
+
+            <label form="username">Username</label>
+            <input type="text" id="nome" placeholder="Digite seu Nome" required><br /><br />
+
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Senha" id="senha" required><br /><br />
+
+            <label for="senha">Reescreva</label>
+            <input type="password" placeholder="Confirme a Senha" id="confirmar_senha" required><br /><br />
+        </fieldset>
+
+        <div class="tacbox">
+            <input id="checkbox" type="checkbox" />
+            <label for="checkbox"> Eu concordo com esses <a href="https://www.roberthalf.com.br/termos-de-uso"
+                    target="_blank">Termos e Condições</a>.</label>
+        </div>
+
+        <button type="submit">Cadastro</button>
+        <button type="reset">Resetar</button>
+
+        <h4>Já possui um cadastro? Sem problemas <a href="Login.html" target="_blank"> clique aqui</a></h4>
+    </form>
+</body>
+
+</html>
