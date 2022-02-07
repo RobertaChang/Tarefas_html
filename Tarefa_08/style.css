@@ -1,0 +1,34 @@
+body {
+    color: white;
+    text-align: center;
+    background: rgb(158, 158, 158);
+    width: center;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+.conteudo_01 {
+    color: rgb(3, 59, 1);
+    text-align: center;
+    width: center;
+    border: 50px solid red;
+    border-bottom: 10px solid red;
+    padding: center;
+    margin: center;
+    background: green;    
+}
+
+.conteudo_02 {
+    color: rgb(3, 59, 1);
+    text-align: center;
+    width: center;
+    border: 50px solid red;
+    border-top: 10px solid red;
+    padding: center;
+    margin: center;
+    background: green; 
+}
+.direitos {
+    color: white;
+    text-align: center;
+}
