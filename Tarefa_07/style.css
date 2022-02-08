@@ -1,0 +1,155 @@
+html { 
+    background-color: rgb(255, 255, 255); 
+}
+
+body {
+    color: rgb(140, 0, 168);
+    text-align: center;
+    background-image: linear-gradient(white, rgb(177, 118, 177));
+    border: 2px solid rgb(80, 0, 104);
+    padding: 20px;
+    margin: 50px;
+}
+
+h2{
+    text-align: center;
+    text-decoration-style: double;
+}
+
+p{
+    text-align: right;
+    word-wrap: break-word;
+}
+
+img{
+    float: left;
+}
+
+div {
+    width: 300px;
+    height: 280px;
+    border-collapse: collapse;
+    border-style: dotted;
+    border: 3px solid rgb(140, 0, 168);
+    padding: 20px;
+    margin: 50px;
+}
+
+#riobranco {
+    border-top-left-radius: 100px;
+}
+
+#maceio {
+    padding: 20px;
+    margin: 30px;
+}
+
+#macapa {
+    border-top-right-radius: 100px;
+}
+
+#manaus {
+    border-top-left-radius: 0px;
+}
+
+#salvador {
+    padding: 20px;
+    margin: 30px;
+}
+
+#fortaleza {
+    border-top-right-radius: 0px;
+}
+
+#brasilia {
+    border-top-left-radius: 0px;
+}
+
+#vitoria {
+    padding: 20px;
+    margin: 30px;
+}
+
+#goiania {
+    border-top-right-radius: 0px;
+}
+
+#saoluiz {
+    border-top-left-radius: 0px;
+}
+
+#cuiaba {
+    padding: 20px;
+    margin: 30px;
+}
+
+#campogrande {
+    border-top-right-radius: 0px;
+}
+
+#belohorizonte {
+    border-top-left-radius: 0px;
+}
+
+#belem {
+    padding: 20px;
+    margin: 30px;
+}
+
+#joaopessoa {
+    border-top-right-radius: 0px;
+}
+
+#curitiba {
+    border-top-left-radius: 0px;
+}
+
+#recife {
+    padding: 20px;
+    margin: 30px;
+}
+
+#teresina {
+    border-top-right-radius: 0px;
+}
+
+#riodejaneiro {
+    border-top-left-radius: 0px;
+}
+
+#natal {
+    padding: 20px;
+    margin: 30px;
+}
+
+#portoalegre{
+    border-top-right-radius: 0px;
+}
+
+#portovelho {
+    border-top-left-radius: 0px;
+}
+
+#boavista {
+    padding: 20px;
+    margin: 30px;
+}
+
+#florianopolis {
+    border-top-right-radius: 0px;
+}
+
+#saopaulo {
+    border-bottom-left-radius: 100px;
+}
+
+#aracaju {
+    padding: 20px;
+    margin: 30px;
+}
+
+#palmas {
+    padding: 30px;
+    margin: 30px;
+    border-bottom-right-radius: 100px;
+}
