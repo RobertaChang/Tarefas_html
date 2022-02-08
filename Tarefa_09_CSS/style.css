@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#gradient1 {
+    color:white;
+    background-image: linear-gradient(to bottom, red, yellow);
+    width: auto;
+    height: 150px;
+}
+
+#gradient2 {
+    color:white;
+    background-image: linear-gradient(to top, blue, purple);
+    width: auto;
+    height: 150px;
+}
+
+#gradient3 {
+    color:white;
+    background-image: linear-gradient(to right, rgb(61, 61, 145), rgb(28, 28, 97));
+    width: auto;
+    height: 150px;
+}
+
+#gradient4 {
+    color:white;
+    background-image: linear-gradient(to right top, rgb(62, 165, 96), rgb(0, 121, 30));
+    width: auto;
+    height: 150px;
+}
+
+#gradient5 {
+    color:white;
+    background-image: linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);
+    width: auto;
+    height: 150px;
+}
+
+#gradient6 {
+    color:white;
+    background-image: radial-gradient(rgb(119, 20, 20), rgb(223, 147, 147), rgb(124, 55, 55));
+    width: auto;
+    height: 150px;
+}
+
+#gradient7 {
+    color:white;
+    background-image: radial-gradient(circle, rgb(63, 108, 192), rgb(100, 173, 4), rgb(221, 91, 5));
+    width: auto;
+    height: 150px;
+}
+
+#gradient8 {
+    color:white;
+    background-image: radial-gradient(farthest-side at 60% 55%, rgb(255, 0, 76), rgb(255, 0, 212), rgb(183, 0, 255));
+    width: auto;
+    height: 150px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
