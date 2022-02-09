@@ -10,6 +10,11 @@ h1{
     padding: 0;
     margin: 0;
 }
+
+img{
+    width: 100%;
+    height: 100%;    
+}
 #gradient1 {
     color:white;
     background-image: linear-gradient(to bottom, red, yellow);
@@ -66,7 +71,68 @@ h1{
     height: 150px;
 }
 
-img {
+#img1 {
     width: 100%;
     height: 100%;
+    background-image: url(img/pato.jpg);
+}
+
+#img2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/porcoespinho.jpg);
+}
+
+#img3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/cabra.jpg);
+}
+
+#img4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Lhama.jpg);
+}
+
+#img5 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/largatixa.jpg);
+}
+
+#img6 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/gato.jpg);
+}
+
+#img7 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/lobo.jpg);
+}
+
+#img8 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/flamingo.jpg);
+}
+
+#gif1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/rato.gif);
+}
+
+#gif2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/cachorro.gif);
+}
+
+#gif3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/coelho.gif);
 }
