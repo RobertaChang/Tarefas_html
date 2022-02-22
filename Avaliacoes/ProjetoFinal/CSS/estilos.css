@@ -1,0 +1,301 @@
+:root {
+    --laranja:rgb(255, 76, 5);
+    --branco: rgb(255, 255, 255);
+    --preto: rgb(0, 0, 0);
+    --cinza-escuro: rgb(68, 68, 68);
+    --cinza-claro: rgb(211, 211, 211);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+header {
+    height: 40vw;
+    background-image: url(../Imagens/img04-2.png); 
+    background-color: var(--cinza-escuro);
+    background-clip: border-box;
+    background-size: 70% 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+header .lista_navegacao {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.lista_navegacao li {
+    color: var(--branco);
+    list-style: none;
+    margin: 50px 0 0 45px;
+    font-size: 25px;    
+}
+
+.lista_navegacao button {
+    background-color: var(--laranja);
+    border-radius: 5px;
+    border: none;
+    font-size: 30px;
+    margin-left: -35px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: var(--branco);
+}
+
+.lista_navegacao button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.lista_navegacao a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+/****** Seção sobre *******/
+
+.sobre{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.texto_sobre {
+    width: 48%;
+    padding: 50px 0 0 0;
+}
+
+.imagem_carrossel {   /*carrossel*/
+    width: 48%;
+    overflow: hidden;
+}
+
+.carrossel {            /*container*/
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.sobre img {
+    width: 100%;
+}
+
+.texto_sobre h2 {
+    font-size: 45px;
+    line-height: .4;
+    text-transform: uppercase;
+}
+
+.sobre p{
+    text-align: justify;
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+
+
+/********* Seção de planos ***********/
+
+main h2{
+    text-align: center;
+    margin: 40px 0 -8px 0;
+    font-size: 30px;
+}
+
+.planos_sobre h2+p{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.divisao_planos {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.lista_planos{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.lista_planos li {
+    width: 30%;
+    background-color: var(--cinza-claro);
+    box-shadow: 1px 1px 10px 2px var(--cinza-escuro);
+    cursor: pointer;
+}
+
+.lista_planos li:hover {
+    transform: scale(1.05);
+}
+
+.lista_planos img {
+    width: 100%;
+}
+
+.lista_planos li button {
+    width: 280px;
+    height: 40px;
+    background-color:  rgb(255, 76, 5);
+    border: none;
+    border-radius: 5px;
+    color: var(--branco);
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.lista_planos h3 {
+    color: var(--laranja);
+    font-size: 30px;
+}
+
+.lista_planos h3,p {
+    margin-left: 40px;
+}
+
+.lista_planos h3+p {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.lista_planos p {
+    line-height: .5;
+}
+
+.botao_card1{
+    margin: 90px 41.5px 20px 41.5px;
+}
+
+.botao_card2{
+    margin: 66px 41.5px 20px 41.5px;
+}
+
+.botao_card3{
+    margin: 17px 41.5px 20px 41.5px;
+}
+
+/******** Mapa e Formulário ********/
+
+.contato {
+   display: flex;
+}
+
+.mapa {
+    width: 50%;
+}
+
+.mapa iframe {
+    width: 100%;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.formulario p {
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+    margin: 55px  0 0 50px;
+    line-height: 1.5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 80.5%;
+    height: 40px;
+    margin: 45px 0 20px 50px;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+textarea {
+    width: 80.5%;
+    margin: 0 75px 0 50px;
+    border-radius: 10px;
+    resize: none;
+}
+
+textarea::placeholder {
+    padding: 30px 0 0 30px;
+    font-size: 20px;
+}
+
+form button {
+    width: 130px;
+    height: 35px;
+    background-color: var(--laranja);
+    border: none;
+    border-radius: 10px;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 17px;
+    margin: 12px 0 0 50px;
+    cursor: pointer;
+}
+
+form button:hover {
+    transform: scale(1.1);
+}
+/********* Rodapé ***********/
+
+.informacao {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.informacao p {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.informacao .email{
+    margin-left: 420px;
+    font-size: 20px;
+    font-weight:normal ;
+}
+
+.informacao .email a {
+    text-decoration: underline;
+    color: var(--preto);
+}
+
+.lista_rodape {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.lista_rodape a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+
+

@@ -1,0 +1,89 @@
+@media (max-width: 375px) {
+    header,nav {
+        width: 375px;
+        height: 40vh;
+    }
+
+    header .lista_navegacao {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lista_navegacao li {
+        margin: 13px 0 13px;
+        font-size: 25px;    
+    }
+    
+    .lista_navegacao button {
+        display: none;
+    }
+
+   /*******  Seção sobre  *******/
+
+    .sobre{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .texto_sobre {
+        width: 375px;
+    }
+    
+    .imagem_carrossel {
+        width: 100%;
+    }
+    
+    .sobre img {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .texto_sobre {
+        padding-top: 10px;
+    }
+    
+    .texto_sobre h2 {
+        margin: 0;
+        font-size: 25px;
+        line-height: 2;
+    }
+    
+    .sobre p{
+        margin: 0;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 1.4;
+        padding:  0 5px;
+    }
+
+    /****** Rodapé ******/
+    
+    .informacao {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .informacao p {
+        margin: 10px 0 0;
+    }
+    
+    .informacao .email{
+        margin: 10px 0 0;
+    }
+
+    .rodape {
+        width: 375px;
+    }
+
+    .lista_rodape{
+        margin: 25px 0;
+        padding: 0;
+        display:flex;
+        font-size: 18px;
+    }
+
+}
