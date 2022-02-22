@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FEFEFE;
+    line-height: 1.6;
+}
+
+.section{
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.lampada-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container{
+    width: max-content;
+    display: flex;
+    border: 2px solid #262626;
+    transition: 0.2s;
+}
+
+.button-container:hover{
+    background-color: #262626;
+    color: #FEFEFE;
+}
+
+.button{
+    padding: 1em 2em;
+    cursor: pointer;
+
+    /* Removing allowment to select */
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
